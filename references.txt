@@ -1,0 +1,11 @@
+Blogs:
+https://blog.apify.com/scrape-instagram-posts-comments-and-more-21d05506aeb3/
+
+
+Docs:
+Basic Scraper - https://apify.com/apify/instagram-scraper
+Profile Scraper - https://apify.com/apify/instagram-profile-scraper/api
+
+
+Scraping with Apify SAAS
+- https://www.youtube.com/watch?v=7WXZJuU040Y
