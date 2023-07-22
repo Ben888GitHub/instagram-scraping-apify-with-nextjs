@@ -5,6 +5,10 @@ const client = new ApifyClient({
 	token: process.env.NEXT_APIFY_API_TOKEN
 });
 
+export const config = {
+	runtime: 'edge' // this is a pre-requisite
+};
+
 const handler = async (req, res) => {
 	// console.log(req.query);
 
