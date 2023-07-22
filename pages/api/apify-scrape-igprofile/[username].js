@@ -1,12 +1,11 @@
 import { ApifyClient } from 'apify-client';
 
-// Initialize the ApifyClient with API token
-const client = new ApifyClient({
-	token: process.env.NEXT_APIFY_API_TOKEN
-});
-
 const handler = async (req, res) => {
 	// console.log(req.query);
+	// Initialize the ApifyClient with API token
+	const client = new ApifyClient({
+		token: process.env.NEXT_APIFY_API_TOKEN
+	});
 
 	const ig_username = req.query.username;
 
